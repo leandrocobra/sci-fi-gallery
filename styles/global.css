@@ -36,7 +36,7 @@
 }
 
 body{
-    font: var(--text-lg);
+    font: var(--text);
     color: var(--text-color-secondary);
     background-color: var(--background-color);
 }
