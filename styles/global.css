@@ -5,15 +5,16 @@
 }
 
 :root{
-    /* sci-fi theme
+
     --brand-color: #7C3AED;
     --background-color: #0F172A;
     --surface-color: #1E293B;
     --skeleton-color: #334155;
     --text-color-primary: #E2E8F0;
-    --text-color-secondary: #94A3B8;
-    */
+    --text-color-secondary: #CBD5F5;
+    
 
+    /*
     --brand-color: #EF5F4C;
     --background-color: #FFFFFF;
     --surface-color: #F5F5F5;
@@ -21,14 +22,16 @@
     --shape-transparency: #ffffff90;
     --text-color-primary: #313131;
     --text-color-secondary: #6C6C6C;
+    */
 
-    --font-family: "Poppins", sans-serif;
+    --font-family: "Orbitron", sans-serif;
+    /*--font-family: "Poppins", sans-serif;*/
     --text: 16px/150% var(--font-family);
     --text-lg: bold 32px/125% var(--font-family);
     --text-md: 14px/170% var(--font-family);
-    --text-sm: 12px/170% var(--font-family)
+    --text-sm: 12px/170% var(--font-family);
 
-    /* se quiser mudar para larana
+    /* se quiser mudar para laranja
     --brand-color: #FF7A00;
     --background-color: #0B0F19;
     --surface-color: #1B2233;

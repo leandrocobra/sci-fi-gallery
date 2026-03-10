@@ -3,6 +3,7 @@
 header{
     padding-block: 32px;
     font: var(--text-md);
+    border: 1px solid var(--skeleton-color);
 }
 
 header .container{
@@ -14,6 +15,7 @@ header .container{
 #profile{
     display: flex;
     gap: 32px;
+    overflow: hidden;
 }
 
 #profile > div{
@@ -40,9 +42,21 @@ header .container{
     gap: 8px;
 }
 
+#info-add li img{
+    width: 20px;
+    height: 20px;
+    display: block;
+}
+
 #profile img{
+    transition: transform .35s ease;
     width: 176px;
     height: 176px;
     object-fit: cover;
     border-radius: 50%;
+}
+
+#profile img:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 30px #7C3AED40;
 }

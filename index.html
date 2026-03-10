@@ -1,82 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SCI-FI GALLERY</title>
-    <link rel="stylesheet" href="/styles/index.css">
-    
+    <link rel="stylesheet" href="styles/index.css">
+
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
     <div class="bg-surface-color">
         <nav class="container">
-            <a href="" id="logo">
+            <a href="index.html" id="logo">
                 <img src="assets/logo-sf.png" alt="logo-navbar">
             </a>
 
             <ul id="menu">
-                <li>   
+                <li>
                     <a href="#">
-                        <img src="assets/magnifying-glass.svg" alt="icone de lupa">
+                        <img id="lupa-img" src="assets/magnifying-glass.png" alt="icone de lupa">
                     </a>
                 </li>
-                <li><a href="#">Explorer</a></li>
-                <li><a href="#">Photos</a></li>
+                <li><a href="#">Explorar</a></li>
+                <li><a href="#">Fotos</a></li>
                 <li><a href="#">
-                    <img src="assets/imagens/img-leandro.pg" alt="foto leandro">
-                </a></li>
+                        <img src="assets/imagens/img-leandro.png" alt="foto leandro">
+                    </a></li>
             </ul>
         </nav>
-        
+
         <header>
             <div class="container">
                 <div id="profile">
-                    <img src="assets/imagens/img-leandro.pg" alt="Imagem de leandro Cobra">
-                
-                    <div>   
-                        <H1>Leandro Cobra</H1>
-                        <p>Alguma frase falando do projeto tal tal tal...</p>
+                    <img src="assets/imagens/img-leandro.png" alt="Imagem de leandro Cobra">
+
+                    <div>
+                        <h1>Leandro Cobra</h1>
+                        <p>Interessado em tecnologia e desenvolvimento web, criei este projeto para praticar layouts com
+                            Flexbox e reunir imagens com estética sci-fi, neon e paisagens futuristas.</p>
                     </div>
                 </div>
-                    
+
                 <ul id="info-add">
                     <li>
-                        <img src="" alt="Pin de Local">
+                        <img src="assets/map-pin-line.png" alt="Pin de Local">
                         <span>Cuiabá, Brasil</span>
                     </li>
                     <li>
-                        <img src="" alt="Icon de foto">
-                        <span>X fotos</span>
+                        <img src="assets/image.png" alt="Icon de foto">
+                        <span>10 fotos</span>
                     </li>
                     <li>
-                        <img src="" alt="Icon de projetos">
-                        <span>x projetos</span>
+                        <img src="assets/gear.png" alt="Icon de projetos">
+                        <span>1 projetos</span>
                     </li>
                 </ul>
-            </div> 
+            </div>
         </header>
     </div>
 
     <main class="container">
-        <img src="assets/imagens/blade-runner.jpg" alt="">
-        <img src="assets/imagens/cyberpunkk-city.jpg" alt="">
-        <img src="assets/imagens/futuristc-landscape.jpg" alt="">
-        <img src="assets/imagens/neon-gaming-background.jpg" alt="">
-        <img src="assets/imagens/orange-landscape.jpg" alt="">
-        <img src="assets/imagens/orange-soldier.jpg" alt="">
-        <img src="assets/imagens/rain-city.jpg" alt="">
-        <img src="assets/imagens/sci-fi-desert-with-the-moon.jpg" alt="">
-        <img src="assets/imagens/sci-fi-dystopia.jpg" alt="">
-        <img src="assets/imagens/sci-fi-purple.jpg" alt="">
-        <img src="assets/imagens/sci-fi-soldier.jpg" alt="">
-        <img src="assets/imagens/silver-surfer.jpg" alt="">
-        <img src="assets/imagens/star-wars.jpg" alt="">
+        <div class="gallery">
+            <div class="card"><img src="assets/imagens/blade-runner.jpg" alt=""></div>
+            <div class="card"><img src="assets/imagens/cyberpunk-city.jpg" alt=""></div>
+            <div class="card"><img src="assets/imagens/futuristic-landscape.jpg" alt=""></div>
+            <div class="card"><img src="assets/imagens/neon-gaming-background.jpg" alt=""></div>
+            <div class="card"><img src="assets/imagens/orange-landscape.jpg" alt=""></div>
+            <div class="card"><img src="assets/imagens/orange-soldier.jpg" alt=""></div>
+            <div class="card"><img src="assets/imagens/rain-city.jpg" alt=""></div>
+            <div class="card"><img src="assets/imagens/sci-fi-desert-with-the-moon.jpg" alt=""></div>
+            <div class="card"><img src="assets/imagens/sci-fi-dystopia.jpg" alt=""></div>
+            <div class="card"><img src="assets/imagens/sci-fi-purple.jpg" alt=""></div>
+            <div class="card"><img src="assets/imagens/sci-fi-soldier.jpg" alt=""></div>
+            <div class="card"><img src="assets/imagens/silver-surfer.jpg" alt=""></div>
+            <div class="card"><img src="assets/imagens/star-wars.jpg" alt=""></div>
+        </div>
     </main>
 
     <footer class="container">
@@ -87,4 +96,5 @@
         </div>
     </footer>
 </body>
+
 </html>
