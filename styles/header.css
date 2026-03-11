@@ -1,34 +1,32 @@
-
-
-header{
+header {
     padding-block: 32px;
     font: var(--text-md);
+    letter-spacing: var(--letter-spacing-md);
     border: 1px solid var(--skeleton-color);
 }
 
-header .container{
+header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-#profile{
+#profile {
     display: flex;
     gap: 32px;
-    overflow: hidden;
 }
 
-#profile > div{
+#apresentacao {
     max-width: 384px;
 }
 
-#profile h1{
+#profile h1 {
     font: var(--text-lg);
     color: var(--text-color-primary);
     margin-bottom: 8px;
 }
 
-#info-add{
+#info-add {
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -36,27 +34,46 @@ header .container{
     width: 280px;
 }
 
-#info-add li{
+#info-add li {
     display: flex;
     align-items: center;
     gap: 8px;
 }
 
-#info-add li img{
+#info-add li img {
     width: 20px;
     height: 20px;
     display: block;
 }
 
-#profile img{
-    transition: transform .35s ease;
+#fotoleandro {
+    flex: 0 0 176px;
+    overflow: hidden;
+    border-radius: 50%;
     width: 176px;
     height: 176px;
-    object-fit: cover;
-    border-radius: 50%;
+    border: 3px solid transparent;
+    transition: box-shadow .3s ease;
+
 }
 
-#profile img:hover{
-    transform: scale(1.05);
+#fotoleandro img {
+    transition: transform .35s ease;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+#fotoleandro:hover {
     box-shadow: 0 0 30px #7C3AED40;
+
+}
+
+#fotoleandro:hover img {
+    transform: scale(1.05);
+}
+
+h1 {
+    letter-spacing: var(--letter-spacing-lg);
 }

@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-:root{
+:root {
 
     --brand-color: #7C3AED;
     --background-color: #0F172A;
@@ -12,7 +12,7 @@
     --skeleton-color: #334155;
     --text-color-primary: #E2E8F0;
     --text-color-secondary: #CBD5F5;
-    
+
 
     /*
     --brand-color: #EF5F4C;
@@ -30,6 +30,9 @@
     --text-lg: bold 32px/125% var(--font-family);
     --text-md: 14px/170% var(--font-family);
     --text-sm: 12px/170% var(--font-family);
+    --letter-spacing-sm: 0.02em;
+    --letter-spacing-md: 0.05em;
+    --letter-spacing-lg: 0.08em;
 
     /* se quiser mudar para laranja
     --brand-color: #FF7A00;
@@ -38,29 +41,30 @@
     */
 }
 
-body{
+body {
     font: var(--text);
+    letter-spacing: var(--letter-spacing-md);
     color: var(--text-color-secondary);
     background-color: var(--background-color);
 }
 
-a{
+a {
     text-decoration: none;
     color: inherit;
 
 }
 
-a:hover{
+a:hover {
     color: var(--brand-color);
     text-decoration: underline;
 }
 
-.container{
+.container {
     padding-inline: 32px;
     max-width: 1280px;
     margin-inline: auto;
 }
 
-.bg-surface-color{
+.bg-surface-color {
     background-color: var(--surface-color);
 }
