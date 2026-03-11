@@ -6,9 +6,26 @@
 }
 
 .card{
+    position: relative;
     flex: 1 1 280px;
     overflow: hidden;
     border-radius: 12px;
+}
+
+.overlay{
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding: 16px;
+    background: linear-gradient(transparent, rgba(0,0,0,0.8));
+    opacity: 0;
+    transition: opacity .3s;
+}
+
+.card:hover .overlay{
+    opacity: 1;
 }
 
 .card img{
@@ -23,6 +40,6 @@
     box-shadow: 0 0 30px #7C3AED40;
 }
 
-.card img:hover{
+.card:hover img{
     transform: scale(1.05);
 }
